@@ -1,0 +1,106 @@
+board:
+  buy_url_cn: N/A
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: J-Link
+  description_en: '
+
+    LPC408x is an evaluation board based on LPC408x series launched by RT-Thread'
+  description_zh: LPC408x 是 RT-Thread 推出的一款基于 LPC408x 系列的评估板
+  emulator_machine: ''
+  large_image: documents/images/no-image.png
+  name: LPC408X-RT-BOARD
+  price_cn: ' CNY'
+  price_global: ' USD'
+  sale_contact_cn: https://www.rt-thread.org/
+  sale_contact_global: https://www.rt-thread.org/
+  small_image: documents/images/no-image.png
+  vendor: RealThread
+  version: 1.0.0
+chip:
+  chip_name: LPC4088
+  clock_source: HSE
+  device_vendor: NXP
+  family_name: LPC
+  rx_name: PA10
+  series_name: LPC4080
+  source_freq: '8000000'
+  sub_series_name: LPC408x
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: sheet
+  file: documents/LPC408X_7X.pdf
+  title: LPC408X_7X
+- category: manual
+  file: documents/UM10562.pdf
+  title: UM10562
+example_projects: []
+features:
+- LPC4088FET208
+- 'CPU: ARM Cortex M4'
+- 'Frequency: 120M'
+- 'SRAM: 64K'
+- 'SDRAM: 32M'
+- 'Flash: 512K'
+features_zh:
+- LPC4088FET208
+- 'CPU: ARM Cortex M4'
+- 'Frequency: 120M'
+- 'SRAM: 64K'
+- 'SDRAM: 32M'
+- 'Flash: 512K'
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - cconfig.h
+    - drivers
+    - Kconfig
+    - Libraries
+    - makefile.targets
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: lpc408x
+  project_name: lpc408x
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
