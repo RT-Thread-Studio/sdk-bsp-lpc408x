@@ -3,9 +3,7 @@ board:
   buy_url_global: N/A
   debug_interface: SWD
   debugger: J-Link
-  description_en: '
-
-    LPC408x is an evaluation board based on LPC408x series launched by RT-Thread'
+  description_en: 'LPC408x is an evaluation board based on LPC408x series launched by RT-Thread'
   description_zh: LPC408x 是 RT-Thread 推出的一款基于 LPC408x 系列的评估板
   emulator_machine: ''
   large_image: documents/images/no-image.png
